@@ -1,4 +1,5 @@
-﻿using CommandHandlerImplementation.Interfaces;
+﻿using CommandHandlerImplementation.Attributes;
+using CommandHandlerImplementation.Interfaces;
 
 namespace CommandHandlerImplementation.Handlers;
 

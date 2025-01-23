@@ -1,4 +1,5 @@
 ﻿using System.Reflection;
+using CommandHandlerImplementation.Attributes;
 using CommandHandlerImplementation.Extensions;
 using CommandHandlerImplementation.Interfaces;
 using Microsoft.Extensions.DependencyInjection;

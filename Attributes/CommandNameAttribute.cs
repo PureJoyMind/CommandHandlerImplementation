@@ -1,4 +1,4 @@
-﻿namespace CommandHandlerImplementation;
+﻿namespace CommandHandlerImplementation.Attributes;
 
 [AttributeUsage(AttributeTargets.Class)]
 public class CommandNameAttribute : Attribute
