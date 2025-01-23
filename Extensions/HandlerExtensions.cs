@@ -2,6 +2,7 @@
 using CommandHandlerImplementation.Handlers;
 using CommandHandlerImplementation.Interfaces;
 using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.DependencyInjection.Extensions;
 
 namespace CommandHandlerImplementation.Extensions;
 
@@ -13,7 +14,7 @@ public static class HandlerExtensions
         var types = GetAssemblyHandlerTypes(typeof(Program).Assembly);
         foreach (var type in types)
         {
-            sc.AddTransient(type);
+            sc.TryAddScoped(type);
         }
     }
     
